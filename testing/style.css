@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+  }
+
+/*tables file*/
+.bluetable{
+  border-collapse: collapse;
+  border: 1px solid blue
+}
+  .bluetable td {
+    padding: 10px
+  }
+  /*change row color every other row*/
+  .bluetable tr:nth-child(even){
+    background-color: red;
+  }
+  /*chnage collumn color every other column*/
+  .bluetable td:nth-child(even){
+    background-color: blue;
+  }
