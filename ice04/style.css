@@ -1,68 +1,68 @@
-body{
-    background-color: #fca6c9;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
-    margin-left: 35%;
-    margin-right: 35%;
-    color: white;
+body {
+  background-color: #fca6c9;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: white;
 }
 
-.white{
-    color: white;
+.white {
+  color: white;
 }
-.coolFont{
-    font-family: Arial, Helvetica, sans-serif, sans-serif;
+.coolFont {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
-header{
-   font-size: 4em;
-   line-height: 2.5;
-   font-weight: bolder;
+header {
+  font-size: 4em;
+  line-height: 2.5;
+  font-weight: bolder;
 }
 
 header:hover {
-    color: black;
+  color: black;
 }
 
-.quoteText{
-    font-size: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:550;
+.quoteText {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
 }
-h1{
-    font-size: 1.6em;
-    margin-bottom: 22px;
+h1 {
+  font-size: 1.6em;
+  margin-bottom: 22px;
 }
-li{
-    font-size: 1.6em;
-    text-align: left;
-    color: black;
-    font-weight: bolder;
-    margin-top: 18px;
+li {
+  font-size: 1.6em;
+  text-align: left;
+  color: black;
+  font-weight: bolder;
+  margin-top: 18px;
 }
-img{
-    max-width: 35%;
-    max-height: auto;
+img {
+  max-width: 35%;
+  max-height: auto;
 }
-#atonement{
-    text-align: center;
-    font-size: 4em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    margin-left: 10%;
-    margin-right: 10%;
+#atonement {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-footer{
-    color: black;
-    font-size: 1.75em;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.quotation::before{
-    content: "❝";
+footer {
+  color: black;
+  font-size: 1.75em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.quotation::after{
-    content: "❞";
+.quotation::before {
+  content: "❝";
+}
+
+.quotation::after {
+  content: "❞";
 }
