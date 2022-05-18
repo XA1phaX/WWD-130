@@ -62,6 +62,8 @@ nav a:hover {
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
@@ -86,6 +88,7 @@ nav a:hover {
   color: #1f403f;
   font-family: "Shadows Into Light", sans-serif;
   font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color: #1f403f;
@@ -94,6 +97,7 @@ h4 {
 footer {
   background-color: #a1e3e1;
   padding: 25px 50px;
+  margin-top: 200px;
 }
 footer h3 {
   color: #1f403f;
@@ -118,4 +122,15 @@ footer .social img {
 }
 #hero-img {
   width: 100%;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #1f403f;
+}
+main section img {
+  box-sizing: border-box;
 }
