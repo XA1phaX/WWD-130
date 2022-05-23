@@ -1,0 +1,16 @@
+.grid {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#cherriesimg {
+  grid-column: 1;
+  grid-row: 1/2;
+}
+#heading {
+  grid-column: 1/2;
+  grid-row: 1;
+  z-index: 1;
+}
+#cherriesP {
+}

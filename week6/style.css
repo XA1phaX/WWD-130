@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-column: 1fr 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 5fr 2fr;
+  gap: 5px;
+  text-align: center;
+}
+.header {
+  background-color: blue;
+  height: 75px;
+  grid-column: 1/6;
+  grid-row: 1;
+}
+.left {
+  height: 500px;
+  background-color: red;
+  grid-column: 1;
+  grid-row: 2/4;
+}
+.main {
+  height: 425px;
+  background-color: bisque;
+  grid-column: 2/5;
+  grid-row: 2;
+}
+.right {
+  background-color: yellow;
+  grid-column: 5;
+  grid-row: 2;
+}
+.footer {
+  height: 75px;
+  background-color: blueviolet;
+  grid-column: 2/6;
+  grid-row: 3;
+}
