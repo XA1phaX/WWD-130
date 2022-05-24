@@ -1,16 +1,34 @@
 .grid {
-  background-color: grey;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 60%;
+  height: 40%;
+  text-align: center;
 }
 #cherriesimg {
   grid-column: 1;
-  grid-row: 1/2;
+  grid-row: 1/3;
 }
 #heading {
-  grid-column: 1/2;
+  margin-top: auto;
+  grid-column: 1/3;
   grid-row: 1;
   z-index: 1;
+  font-size: 5em;
+  letter-spacing: 0.3em;
+  font-weight: bold;
 }
 #cherriesP {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0 auto;
+  color: #9c0e11;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+#grey {
+  background-color: #b9b8b9;
+  grid-column: 2;
+  grid-row: 1/3;
 }
