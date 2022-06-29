@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap");
+
+.content {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Nav */
+header {
+  background-color: #38686b;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color: #d9d9d9;
+  text-decoration: none;
+  margin-top: 1.6em;
+  padding: 8px;
+  font-size: 1.4em;
+  height: 1.2em;
+}
+nav a:hover {
+  background-color: #353535;
+  color: #d9d9d9;
+}
+.logo {
+  width: 5em;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+/* Home */
