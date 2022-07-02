@@ -12,7 +12,7 @@
 header {
   background-color: #38686b;
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 10% 80% 5% 5%;
 }
 nav {
   display: flex;
@@ -26,6 +26,7 @@ nav a {
   padding: 8px;
   font-size: 1.4em;
   height: 1.2em;
+  margin-right: -1.8em;
 }
 nav a:hover {
   background-color: #353535;
@@ -36,5 +37,83 @@ nav a:hover {
   margin-bottom: 0;
   padding: 15px;
 }
+#logoLink {
+  width: 5em;
+}
+
+#nav-facebook {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.85em;
+  padding-right: 15px;
+}
+
+#nav-insta {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.85em;
+  padding-right: 15px;
+}
+
+#nav-facebook-img {
+  width: 3em;
+  height: 3em;
+}
+#nav-insta-img {
+  width: 3em;
+  height: 3em;
+}
 
 /* Home */
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 37.7% 12.3%;
+  width: 80%;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.hero-img {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  width: 100%;
+  border: #353535 solid 5px;
+}
+
+#name {
+  grid-column: 2/3;
+  grid-row: 1;
+  z-index: 2;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#hero-button {
+  grid-column: 2/3;
+  grid-row: 2;
+  z-index: 2;
+  width: 40%;
+  height: 25%;
+  margin: 0 auto;
+  margin-top: 2em;
+  background-color: #38686b;
+  border: #353535 solid 2px;
+}
+
+#hero-button:hover {
+  background-color: #353535;
+}
+
+#hero-button-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* .home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 0;
+} */
