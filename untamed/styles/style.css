@@ -46,6 +46,8 @@ nav a:hover {
   justify-content: space-around;
   margin-top: 1.85em;
   padding-right: 15px;
+  width: 3em;
+  height: 3em;
 }
 
 #nav-insta {
@@ -53,6 +55,8 @@ nav a:hover {
   justify-content: space-around;
   margin-top: 1.85em;
   padding-right: 15px;
+  width: 3em;
+  height: 3em;
 }
 
 #nav-facebook-img {
@@ -72,6 +76,7 @@ nav a:hover {
   width: 80%;
   padding: 8px;
   margin: 0 auto;
+  margin-top: 1em;
 }
 
 .hero-img {
@@ -94,26 +99,191 @@ nav a:hover {
   grid-column: 2/3;
   grid-row: 2;
   z-index: 2;
-  width: 40%;
-  height: 25%;
+  width: 38%;
+  height: 20%;
   margin: 0 auto;
   margin-top: 2em;
   background-color: #38686b;
   border: #353535 solid 2px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #hero-button:hover {
   background-color: #353535;
 }
 
-#hero-button-link {
-  text-decoration: none;
-  color: white;
-}
-
-/* .home-grid {
+.home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 50% 20%;
   margin: 0 auto;
   padding: 0;
-} */
+  text-align: center;
+  width: 100%;
+}
+
+#homeHeader {
+  grid-column: 1/3;
+  grid-row: 1;
+  margin: 0 auto;
+  margin-top: 0.75em;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #38686b;
+  font-family: "Oswald", Helvetica, sans-serif;
+}
+
+#image1 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  margin: 0 auto;
+  margin-top: 4em;
+  width: 95%;
+  border: #353535 solid 5px;
+  z-index: 0;
+}
+
+#image2 {
+  grid-column: 2/4;
+  grid-row: 2;
+  margin: 0 auto;
+  margin-top: 4em;
+  width: 95%;
+  border: #353535 solid 5px;
+}
+
+#image1-button {
+  grid-column: 1/2;
+  grid-row: 3;
+  margin: 0 auto;
+  border: #353535 solid 2px;
+  z-index: 1;
+  background-color: #38686b;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -7em;
+  margin-bottom: 7em;
+  font-size: 1.3em;
+}
+
+#image2-button {
+  grid-column: 2/3;
+  grid-row: 3;
+  margin: 0 auto;
+  border: #353535 solid 2px;
+  z-index: 1;
+  background-color: #38686b;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -7em;
+  margin-bottom: 7em;
+  font-size: 1.3em;
+}
+
+#image1-button:hover {
+  background-color: #353535;
+  color: #d9d9d9;
+}
+
+#image2-button:hover {
+  background-color: #353535;
+  color: #d9d9d9;
+}
+
+/* Contact Us */
+.contactus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+.contactus img {
+  width: 5em;
+}
+
+.contactus h2 {
+  grid-column: 1/3;
+  grid-row: 1;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 2.5em;
+  color: #38686b;
+}
+
+.sociallinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sociallinks a {
+  width: 5em;
+  height: 5em;
+}
+
+.sociallinks h3 {
+  grid-column: 1/3;
+  grid-row: 1;
+  margin-top: -1em;
+}
+
+.instagram {
+  grid-column: 1/2;
+  grid-row: 2;
+  margin-top: -4em;
+  /* margin-bottom: 2em; */
+  margin-right: 3em;
+  margin-left: 0.5em;
+}
+
+.facebook {
+  grid-column: 2/3;
+  grid-row: 2;
+  margin-top: -4em;
+  margin-left: 4em;
+  /* margin-bottom: 2em; */
+}
+
+/* Footer */
+footer {
+  background-color: #38686b;
+  display: grid;
+  grid-template-columns: 20% 1fr 20% 10%;
+  width: 100%;
+  color: #d9d9d9;
+}
+
+footer img {
+  width: 3em;
+  margin-top: 0.5em;
+}
+
+footer nav a {
+  margin-top: 1.2em;
+  font-size: 1em;
+}
+
+.insta-footer {
+  margin-right: 0.8em;
+}
+
+.copyright {
+  margin-left: 0.4em;
+}
