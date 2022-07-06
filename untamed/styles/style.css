@@ -36,7 +36,7 @@ nav a:hover {
   color: #d9d9d9;
 }
 .logo {
-  width: 5em;
+  width: 100px;
   margin-bottom: 0;
   padding: 15px;
 }
@@ -283,6 +283,62 @@ nav a:hover {
   margin-left: 50px;
   margin-right: 10px;
   /* margin-bottom: 2em; */
+}
+
+/* ### Products ### */
+#productPage {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+#pg2Title {
+  text-align: center;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 3.5em;
+  color: #353535;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 1%;
+}
+
+#productGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.45fr;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  justify-items: center;
+}
+
+#productGrid h4 {
+  font-size: larger;
+}
+
+#icebergShirt {
+  max-width: 400px;
+}
+
+#logoHat {
+  margin-top: 6%;
+}
+
+.icebergShirt_text {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.logoHat_text {
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.instock,
+.madeToOrder {
+  color: green;
 }
 
 /* Footer */

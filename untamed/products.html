@@ -8,11 +8,11 @@
     <title>Products</title>
   </head>
   <body>
-    <div id="content">
+    <div id="productPage">
       <header>
         <a id="logoLink" href="./index.html">
           <img
-            src="./images/Untamed Logo.png"
+            src="./images/UntamedLogoWhite.png"
             class="logo"
             alt="Untamed Logo"
           />
@@ -22,41 +22,56 @@
           <a href="./products.html">Products</a>
           <a href="./aboutus.html">About Us</a>
         </nav>
+        <a
+          id="nav-facebook"
+          href="https://www.facebook.com/UntamedShirtsOfficial/"
+        >
+          <img
+            src="./images/socialmediaimgs/coolfacebooklogoedit.png"
+            alt="facebook link"
+            id="nav-facebook-img"
+          />
+        </a>
+        <a id="nav-insta" href="https://www.instagram.com/untamedshirts/">
+          <img
+            src="./images/socialmediaimgs/coolinstalogoedit.png"
+            alt="instagram link"
+            id="nav-insta-img"
+          />
+        </a>
       </header>
       <div id="productMain">
+        <h1 id="pg2Title">Products</h1>
         <div id="productGrid">
-          <h1 id="pg2Title">Products</h1>
-          <div class="icebergShirt">
-            <img
-              id="icebergFront"
-              src="./images/iceburg/shirt design front.png"
-              alt="Iceberg Front image"
-              ="productImg"
-            />
-            <img
-              id="icebergBack"
-              src="./images/iceburg/shirt deisgn back.png"
-              alt="Iceberg back image"
-            />
+          <img
+            id="icebergShirt"
+            src="./images/iceburg/shirt design front.png"
+            alt="Iceberg Front image"
+            onmouseover="this.src='./images/iceburg/shirt deisgn back.png'"
+            onmouseout="this.src='./images/iceburg/shirt design front.png'"
+          />
+          <img
+            id="logoHat"
+            src="./images/hat/Black Logo Flat.PNG"
+            alt="Black logo hat image"
+          />
+          <div class="icebergShirt_text">
             <h4 id="icebergHeader">Iceberg</h4>
             <p id="icebergInfo">
               <span class="price">$22.99 - $27.99</span><br />
-              <span class="instock">In Stock</span><br />
+              <span class="instock">In Stock</span><br /><br />
               This shirt is current only available in black. This shirt comes in
               short or long sleeves and is available in most sizes. To order,
               please contact us at <b>untamedshirts@gmail.com</b> or direct
               message us on our social media!
             </p>
           </div>
-          <div class="logoHat">
-            <img
-              src="./images/hat/Black Logo Flat.PNG"
-              alt="Black logo hat image"
-            />
+
+          <div class="logoHat_text">
             <h4 id="hatHeader">Untamed Snapback</h4>
             <p id="hatInfo">
               <span class="price"></span>$29.99<br />
-              <span class="madeToOrder">Made to Order</span><br />
+              <span class="madeToOrder">Made to Order</span><br /><br />
               This hat is made to order. Available in most colors, and styles.
               Prices may vary depending on color and style. Available with logo
               embroided on the front left or right. For more information, please
@@ -93,24 +108,27 @@
         <p>Contact us at: <b>untamedshirts@gmail.com</b></p>
 
         <div class="sociallinksfooter">
-          <button class="instagram">
-            <a href="https://www.instagram.com/untamedshirts/">
-              <img
-                src="./images/social media imgs/coolinstalogoedited.png"
-                alt="instagram logo"
-              />
-            </a>
-          </button>
-          <button class="facebook">
-            <a href="https://www.facebook.com/UntamedShirtsOfficial/">
-              <img
-                src="./images/social media imgs/coolfacebooklogoedited.png"
-                alt="facebook logo"
-              />
-            </a>
-          </button>
+          <a
+            class="insta-footer"
+            href="https://www.instagram.com/untamedshirts/"
+          >
+            <img
+              src="./images/socialmediaimgs/coolinstalogoedit.png"
+              alt="instagram logo"
+            />
+          </a>
+          <a
+            class="facebook-footer"
+            href="https://www.facebook.com/UntamedShirtsOfficial/"
+          >
+            <img
+              src="./images/socialmediaimgs/coolfacebooklogoedit.png"
+              alt="facebook logo"
+            />
+          </a>
         </div>
       </footer>
     </div>
   </body>
 </html>
+<!-- onmouseover="" onmouseout="" -->
