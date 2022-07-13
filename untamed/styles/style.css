@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap");
 
+/* html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+} */
+
 .content {
   font-family: "Ubuntu", Helvetica, sans-serif;
   font-weight: lighter;
@@ -13,6 +21,9 @@ header {
   background-color: #38686b;
   display: grid;
   grid-template-columns: 10% 80% 5% 5%;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 18px;
+
   /* display: flex;
   justify-content: space-around;
   flex-direction: row; */
@@ -382,6 +393,41 @@ nav a:hover {
   padding-top: 50px;
 }
 
+/* ###About Us### */
+#aboutus_content {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+#aboutus_content img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#aboutH1 {
+  text-align: center;
+  font-family: "Oswald", Helvetica, sans-serif;
+  font-size: 3.5em;
+  color: #353535;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 1%;
+}
+
+.aboutUs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  /* margin: 0 auto; */
+  width: 100%;
+  font-size: 20px;
+  max-height: 400px;
+}
+
 /* Footer */
 footer {
   background-color: #38686b;
@@ -389,6 +435,9 @@ footer {
   grid-template-columns: 20% 1fr 20% 10%;
   width: 100%;
   color: #d9d9d9;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
 }
 
 footer img {
