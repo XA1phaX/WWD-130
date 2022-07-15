@@ -394,17 +394,13 @@ nav a:hover {
 }
 
 /* ###About Us### */
-#aboutus_content {
+.aboutus_content {
   font-family: "Ubuntu", Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 18px;
   margin: 0;
   padding: 0;
-}
-
-#aboutus_content img {
-  max-width: 500px;
-  max-height: 500px;
+  min-height: 0px;
 }
 
 #aboutH1 {
@@ -414,18 +410,99 @@ nav a:hover {
   color: #353535;
   margin: 0 auto;
   padding: 0;
-  margin-top: 1%;
+  margin-top: 5%;
 }
 
 .aboutUs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.25fr;
   justify-items: center;
   /* margin: 0 auto; */
   width: 100%;
   font-size: 20px;
   max-height: 400px;
+}
+
+#howWeGotHereGrid {
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#howWeGotHereGrid div {
+  max-width: 800px;
+  padding-right: 36px;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+#howWeGotHereGrid img {
+  border: none;
+}
+
+#ourMissionGrid {
+  grid-row: 2;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#ourMissionGrid div {
+  max-width: 800px;
+  margin-right: 50px;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+#ourMissionGrid img,
+#aboutmeGrid img {
+  border: #353535 solid 5px;
+  max-width: 500px;
+  min-width: 150px;
+  max-height: 500px;
+}
+
+#aboutmeGrid {
+  grid-row: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#aboutmeGrid div {
+  max-width: 800px;
+  margin-left: 50px;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+#contactus {
+  margin-top: 50px;
+  grid-row: 4;
+}
+
+.contactus img {
+  width: 150px;
+}
+
+#sociallinksA {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  justify-content: center;
+  gap: 0px 50px;
+}
+
+#sociallinksA a {
+  margin: 0 50px 0 50px;
 }
 
 /* Footer */
@@ -452,6 +529,11 @@ footer nav a {
 
 .insta-footer {
   margin-right: 0.8em;
+}
+
+#insta-footer {
+  width: 3em;
+  margin-top: 0.5em;
 }
 
 .copyright {
